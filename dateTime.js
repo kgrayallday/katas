@@ -31,3 +31,10 @@ options = {
 };
 console.log('24 hour date and time: ', new Intl.DateTimeFormat('en-GB', options).format(myDate));
 // 24 hour date and time:  08/01/2022, 10:43:34
+
+// getting and setting in variables
+const today = new Date();
+// returns week day number based on Sunday = 0
+const day = today.getDay();
+const hour = today.getHours();
+const minute = today.getMinutes();
