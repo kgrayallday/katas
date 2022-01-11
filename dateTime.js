@@ -3,7 +3,7 @@
 // create a new Date Object
 const myDate = new Date();
 
-// create options for how to display the date
+// create options for how to display the date (Using internationalization API)
 // crazy american format mm-dd-yy 
 console.log('American: ', new Intl.DateTimeFormat('en-US').format(myDate));
 // American:  1/8/2022
